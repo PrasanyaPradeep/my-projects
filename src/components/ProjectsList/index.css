@@ -1,0 +1,37 @@
+.project-list {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 80%;
+  box-shadow: 0px 4px 4px 0px #475569;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-list {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-list {
+    width: 22%;
+  }
+}
+
+.project-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-image {
+    width: 100%;
+  }
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  padding: 8px;
+}
